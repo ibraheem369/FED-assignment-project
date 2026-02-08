@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Heart of Hawker</title>
+
+  <link rel="stylesheet" href="../topnav.css?v=2">
+  <link rel="stylesheet" href="../footer.css" />
+  <link rel="stylesheet" href="contact.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="top-nav">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="../home/Homepage.html">
+          <img src="../logo_picture.png" alt="Heart of Hawker Logo" class="logo-img" />
+        </a>
+      </div>
+
+      <div class="nav-search">
+        <i class="fas fa-search"></i>
+        <!-- ✅ ID added so JS can target it -->
+        <input id="navSearch" type="text" placeholder="Search" class="nav-search-input" />
+      </div>
+
+      <div class="nav-links">
+        <a href="../home/Homepage.html" class="nav-link">Home</a>
+  <a href="../hawkers/Hawkerpage.html" class="nav-link">Hawker Centres</a>
+  <a href="../favourite/Favouritepage.html" class="nav-link">Favourites</a>
+  <a href="../orderhist/Orderhistpage.html" class="nav-link">Order History</a>
+  <a href="../review/Reviewpage.html" class="nav-link">Reviews</a>
+
+  <!-- ✅ Contact page should be active -->
+  <a href="../contact/Contactpage.html" class="nav-link active">Contact</a>
+
+  <a href="../about/Aboutpage.html" class="nav-link">About</a>
+  <a href="../menu/menu.html" class="nav-link">Menu</a>
+      </div>
+
+      <div class="nav-right-icons">
+        <a href="../cart/Cartpage.html" class="nav-icon cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+        <a href="../profile/Profilepage.html" class="profile-pic-nav">
+          <i class="fas fa-user"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="contact-wrap">
+    <section class="hero">
+      <h1 class="hero-title">Get in Touch</h1>
+      <p class="hero-subtitle">We're here to help with any questions about our hawker centres</p>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Contact Information</h2>
+      </div>
+
+      <div class="contact-grid">
+        <article class="contact-card">
+          <h3 class="contact-name"><i class="fas fa-phone"></i> Phone Support</h3>
+          <div class="contact-details">
+            <div class="detail-item"><span class="label">Main Line:</span><span class="value">+65 6123 4567</span></div>
+            <div class="detail-item"><span class="label">Hours:</span><span class="value">Mon-Fri: 9AM-5PM</span></div>
+            <div class="detail-item"><span class="label">Sat-Sun:</span><span class="value">10AM-4PM</span></div>
+          </div>
+        </article>
+
+        <article class="contact-card">
+          <h3 class="contact-name"><i class="fas fa-envelope"></i> Email Support</h3>
+          <div class="contact-details">
+            <div class="detail-item"><span class="label">General:</span><span class="value">info@hawker.com</span></div>
+            <div class="detail-item"><span class="label">Support:</span><span class="value">support@hawker.com</span></div>
+            <div class="detail-item"><span class="label">Feedback:</span><span class="value">feedback@hawker.com</span></div>
+          </div>
+        </article>
+
+        <article class="contact-card">
+          <h3 class="contact-name"><i class="fas fa-location-dot"></i> Visit Us</h3>
+          <div class="contact-details">
+            <div class="detail-item"><span class="label">Address:</span><span class="value location">1 Kadayanallur Street, Maxwell Food Centre</span></div>
+            <div class="detail-item"><span class="label">Postal Code:</span><span class="value">069184</span></div>
+            <div class="detail-item"><span class="label">Country:</span><span class="value">Singapore</span></div>
+          </div>
+        </article>
+
+        <article class="contact-card">
+          <h3 class="contact-name"><i class="fas fa-clock"></i> Business Hours</h3>
+          <div class="contact-details">
+            <div class="detail-item"><span class="label">Weekdays:</span><span class="value">9:00 AM - 5:00 PM</span></div>
+            <div class="detail-item"><span class="label">Weekends:</span><span class="value">10:00 AM - 4:00 PM</span></div>
+            <div class="detail-item"><span class="label">Holidays:</span><span class="value">Closed</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Find Our Hawker Centres</h2>
+      </div>
+
+      <div class="map-container">
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808559179394!2d103.84648307464991!3d1.2800433615945222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1918f03c5d2b%3A0x5a46c0b13e7c472e!2sMaxwell%20Food%20Centre!5e0!3m2!1sen!2ssg!4v1700000000000!5m2!1sen!2ssg"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="map-info">
+          <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Maxwell Food Centre, Singapore 069184</span></div>
+          <div class="info-item"><i class="fas fa-train"></i><span>Nearest MRT: Tanjong Pagar (5 min walk)</span></div>
+          <div class="info-item"><i class="fas fa-bus"></i><span>Bus stops: 01011, 01019, 01013</span></div>
+          <div class="info-item"><i class="fas fa-car"></i><span>Limited parking available nearby</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-info">
+        <h3 class="footer-title">SG Heart of Hawker</h3>
+
+        <div class="footer-contact">
+          <div class="contact-item"><i class="fas fa-envelope"></i><span>HawkerHut@company.com</span></div>
+          <div class="contact-item"><i class="fas fa-phone"></i><span>+65 6123 4567</span></div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>1 Kadayanallur Street, Maxwell Food Centre, Singapore 069184</span></div>
+          <div class="contact-item"><i class="fas fa-clock"></i><span>Mon-Sun: 8:00 AM - 10:00 PM</span></div>
+        </div>
+      </div>
+
+      <div class="footer-links-section">
+        <div class="footer-links">
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Do Not Sell My Information</a>
+          <a href="#" class="footer-link">Accessibility</a>
+          <a href="#" class="footer-link">Careers</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-text">© 2026 SG Heart of Hawker. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ✅ keep your scripts -->
+  <script src="../topnav.js" defer></script>
+  <script src="contact.js" defer></script>
+
+  <!-- ✅ add this nav search script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const navSearchInput = document.getElementById("navSearch") || document.querySelector(".nav-search-input");
+      if (!navSearchInput) return;
+
+      navSearchInput.addEventListener("keydown", (e) => {
+        if (e.key !== "Enter") return;
+        const q = (navSearchInput.value || "").trim().toLowerCase();
+
+        if (q === "home") window.location.href = "../home/Homepage.html";
+        else if (q === "menu") window.location.href = "../menu/menu.html";
+        else if (q === "about" || q === "about us") window.location.href = "../about/Aboutpage.html";
+        else if (q === "contact" || q === "contact us") window.location.href = "../contact/Contactpage.html";
+        else if (q === "hawker" || q === "hawker centres") window.location.href = "../hawkers/Hawkerpage.html";
+        else if (q === "favourites") window.location.href = "../favourite/Favouritepage.html";
+        else if (q === "order history") window.location.href = "../orderhist/Orderhistpage.html";
+        else if (q === "reviews") window.location.href = "../review/Reviewpage.html";
+      });
+    });
+  </script>
+</body>
+</html>
+<script>
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const input = document.querySelector(".nav-search-input");
+    if (!input) return;
+
+    input.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter") return;
+
+      const q = (input.value || "").trim().toLowerCase();
+      if (!q) return;
+
+      if (q === "menu") window.location.href = "../menu/menu.html";
+      else if (q === "home") window.location.href = "../home/Homepage.html";
+      else if (q === "about" || q === "about us") window.location.href = "../about/Aboutpage.html";
+      else if (q === "contact" || q === "contact us") window.location.href = "../contact/Contactpage.html";
+      else if (q === "hawker" || q === "hawker centres" || q === "hawker centers") window.location.href = "../hawkers/Hawkerpage.html";
+      else if (q === "favourites" || q === "favourite") window.location.href = "../favourite/Favouritepage.html";
+      else if (q === "order history") window.location.href = "../orderhist/Orderhistpage.html";
+      else if (q === "reviews" || q === "review") window.location.href = "../review/Reviewpage.html";
+    });
+  });
+</script>

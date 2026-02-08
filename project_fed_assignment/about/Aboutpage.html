@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Heart of Hawker</title>
+
+  <link rel="stylesheet" href="../topnav.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="../footer.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <nav class="top-nav">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <!-- ✅ FIX: from /about to /home -->
+        <a href="../home/Homepage.html">
+          <img src="../logo_picture.png" alt="Heart of Hawker Logo" class="logo-img">
+        </a>
+      </div>
+
+      <div class="nav-search">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search" class="nav-search-input">
+      </div>
+
+      <div class="nav-links">
+    <div class="nav-links">
+ <a href="../home/Homepage.html" class="nav-link">Home</a>
+  <a href="../hawkers/Hawkerpage.html" class="nav-link">Hawker Centres</a>
+  <a href="../favourite/Favouritepage.html" class="nav-link">Favourites</a>
+  <a href="../orderhist/Orderhistpage.html" class="nav-link">Order History</a>
+  <a href="../review/Reviewpage.html" class="nav-link">Reviews</a>
+
+  <!-- ✅ correct path + not active -->
+  <a href="../contact/Contactpage.html" class="nav-link">Contact</a>
+
+  <!-- ✅ About page should be active -->
+  <a href="../about/Aboutpage.html" class="nav-link active">About</a>
+
+  <!-- ✅ Menu link -->
+  <a href="../menu/menu.html" class="nav-link">Menu</a>
+</div>
+
+      </div>
+
+      <div class="nav-right-icons">
+        <a href="../cart/Cartpage.html" class="nav-icon cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+        <a href="../profile/Profilepage.html" class="profile-pic-nav">
+          <i class="fas fa-user"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="about-wrap">
+    <section class="hero">
+      <h1 class="hero-title">About Heart of Hawker</h1>
+      <p class="hero-subtitle">Preserving Singapore's hawker culture while bringing it into the digital age</p>
+    </section>
+
+    <section class="about-hero">
+      <div class="about-hero-inner">
+        <div class="about-copy">
+          <span class="about-eyebrow">OUR MISSION</span>
+          <h1>Connecting hawker centres, stall owners, and customers on one seamless platform</h1>
+          <p>
+            SG Heart of Hawker was built to bridge tradition and technology — helping hawkers
+            thrive without losing authenticity. We connect hawker centres, stall owners, and
+            customers on one platform making discovery, ordering, and support seamless.
+          </p>
+
+          <div class="about-actions">
+            <a href="../hawkers/Hawkerpage.html" class="about-btn primary">Explore Hawkers</a>
+            <a href="#story" class="about-btn ghost">Our Story</a>
+          </div>
+
+          <div class="about-trust">
+            <div class="about-trust-item"><i class="fas fa-map-marker-alt"></i> Singapore-first</div>
+            <div class="about-trust-item"><i class="fas fa-utensils"></i> Hawker-focused</div>
+            <div class="about-trust-item"><i class="fas fa-users"></i> Community-led</div>
+          </div>
+        </div>
+
+        <div class="about-media">
+          <div class="about-card">
+            <!-- ✅ FIX: images are in project root, so use ../ -->
+            <img src="../hawker.jpg" alt="Hawker Centre">
+          </div>
+
+          <div class="about-card mini">
+            <!-- ✅ FIX: images are in project root, so use ../ -->
+            <img src="../food.jpg" alt="Hawker Food">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title" id="story">Our Story & Mission</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-panel">
+          <h2>Our Story</h2>
+          <p>
+            Hawker centres are the heart of Singapore's food culture. Yet many hawkers
+            struggle with rising costs, long queues, and limited online presence.
+          </p>
+          <p>
+            SG Heart of Hawker was built to bridge tradition and technology — helping
+            hawkers thrive without losing authenticity.
+          </p>
+        </article>
+
+        <article class="about-panel accent">
+          <h2>Our Mission</h2>
+          <p class="about-lead">Preserve heritage. Empower hawkers. Improve access.</p>
+          <ul class="about-checklist">
+            <li><i class="fas fa-check-circle"></i> Accurate hawker listings</li>
+            <li><i class="fas fa-check-circle"></i> Simple digital ordering</li>
+            <li><i class="fas fa-check-circle"></i> Community-driven feedback</li>
+            <li><i class="fas fa-check-circle"></i> Support local businesses</li>
+            <li><i class="fas fa-check-circle"></i> Preserve culinary heritage</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-info">
+        <h3 class="footer-title">SG Heart of Hawker</h3>
+        <div class="footer-contact">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>HawkerHut@company.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+65 6123 4567</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>1 Kadayanallur Street, Maxwell Food Centre, Singapore 069184</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <span>Mon-Sun: 8:00 AM - 10:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-links-section">
+        <div class="footer-links">
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Do Not Sell My Information</a>
+          <a href="#" class="footer-link">Accessibility</a>
+          <a href="#" class="footer-link">Careers</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-text">© 2026 SG Heart of Hawker. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="about.js"></script>
+</body>
+</html>
